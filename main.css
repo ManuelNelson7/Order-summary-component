@@ -19,7 +19,7 @@ p {
 
 body {
     font-family: 'Red Hat Display', sans-serif;
-    background: var(--pale-blue) url("./images/pattern-background-desktop.svg") no-repeat;
+    background: var(--pale-blue) url("./images/pattern-background-mobile.svg") no-repeat;
     background-size: contain;
     margin: 0;
     padding: 0;
@@ -41,15 +41,12 @@ main {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 33em;
     border-radius: 15px;
     box-shadow: 1px 20px 30px 1px hsla(245, 75%, 52%, 0.151);
 }
 
-#image-header {
-    background-image: url(./images/illustration-hero.svg);
-    background-size: 100%;
-    height: 10.4em;
+#image-header1 {
+    width: 100%;
     background-repeat: no-repeat;
     border-radius: 15px 15px 0px 0px;
 }
@@ -119,6 +116,12 @@ main {
     font-size: 13px;
     color: var(--bright-blue);
     font-weight: 700;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.change:hover{
+    color: var(--desaturated-blue);
 }
 
 /*--------FINAL BUTTONS---------------*/
@@ -134,13 +137,26 @@ main {
     font-size: 14px;
     color: var(--very-pale-blue);
     box-shadow: 1px 12px 11px 1px hsla(245, 75%, 52%, 0.145);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.primary-btn:hover{
+    background-color: var(--desaturated-blue);
 }
 
 .cancel {
-    margin-top: 1.6em;
+    margin-top: 1.5em;
+    padding-bottom: 1.5em;
     font-weight: 700;
     font-size: 14px;
     color: var(--desaturated-blue);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: var(--dark-blue);
 }
 
 .attribution {
@@ -149,6 +165,25 @@ main {
     width: 100%;
 }
 
+/*-------MEDIA QUERYS---------*/
+
+@media (min-width: 1440px) {
+
+    body {
+        background: var(--pale-blue) url("./images/pattern-background-desktop.svg") no-repeat;
+    }
+
+    .card {
+        background-color: var(--very-pale-blue);
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        border-radius: 15px;
+        box-shadow: 1px 20px 30px 1px hsla(245, 75%, 52%, 0.151);
+    }
+    
+    
+}
 
 
 
