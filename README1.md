@@ -4,11 +4,11 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![Final design](./images/screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-3RdrGIAgf)
-- Live Site URL: [Add live site URL here](https://manuelnelson7.github.io/Order-summary-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-3RdrGIAgf](https://www.frontendmentor.io/solutions/order-summary-3RdrGIAgf)
+- Live Site URL: [https://manuelnelson7.github.io/Order-summary-component/](https://manuelnelson7.github.io/Order-summary-component/)
 
